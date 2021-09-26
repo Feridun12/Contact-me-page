@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background: linear-gradient(90deg, #d8f3dc, #b7e4c7, #95d5b2, #74c69d, #52b788);
+}
+
+#first-line {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 44px;
+    color: black;
+    background-color: #e6f7ff;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 50px 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
