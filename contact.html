@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact me!</title>
     
 </head>
@@ -14,6 +14,7 @@
         Contact me!
     </h1>
     <div id="mainbody">
+        <form action="" method="GET" class="contact-me-form"></form>
         <span id="titleofradios"> Type of Inquiry </span> 
         <label for="business">
             <input class="radiobut" type="radio" name="business"> Business 
@@ -22,8 +23,35 @@
         <label for="general">
             <input class="radiobut" type="radio" name="general"> General
         </label>
+        <div class="full-name">
+            <label for="full-name">Full Name </label>
+            <input id='full-name' name='full-name' type='text'/>
+        </div>
+        <div>
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email"
+            placeholder="yourname@hotmail.com">
+        </div>
+        <div>
+            <label for="phone-number">Phone number</label>
+            <input id="phone-number" name="phone" type="tel">
+        </div>
+    <div>
+        <label for="text-part">Your message</label>
+        <textarea id="text-part" name="text-part"></textarea>
+    </div>
+<div class="buttons">
+    <button id="submit-button">Submit</button>
+    <button id="clear-button">Clear</button>
+</div>
+
+    </form>
 
     </div>
+    <p>Lets connect!
+        <a target="_blank" href="https://www.linkedin.com/in/feridun-canselen-73666b200/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" width="50" height="60">
+        </a><a target="_blank" href="https://github.com/Feridun12"> <img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo-1536x864.png" height="60" width="80"> </a> 
+    </p>
  
 </body>
 </html>
